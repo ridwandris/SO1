@@ -34,10 +34,12 @@ int main(void)
 	char easy[] = "No one said; it would. be easy! AaEe IiOoUu?";
 	
 	// William Lyon Phelps: The Pleasure of Books
-	char bookSpeech [] =  "A borrowed book is like a guest in the house; it must be treated with punctiliousness, with a certain considerate formality. "
+	char bookSpeech [] =  
+	"A borrowed book is like a guest in the house; it must be treated with punctiliousness, with a certain considerate formality. "
 	"You must see that it sustains no damage; it must not suffer while under your roof. "
 	"You cannot leave it carelessly, you cannot mark it, you cannot turn down the pages, you cannot use it familiarly. "
 	"And then, some day, although this is seldom done, you really ought to return it.";
+	
 	
 	//To determine text properties
 	properties easyProperties = getTextProperties(easy);
@@ -62,7 +64,7 @@ void printTextProperties(properties textProperties)
 	printf("Words : %d\n", textProperties.words);
 	printf("Sentences : %d\n", textProperties.sentences);
 	printf("Syllables : %d\n", textProperties.syllables);
-	printf("Readability : %.1f out of 100\n", textProperties.readability);
+	printf("Readability : %.1d out of 100\n", textProperties.readability);
 }
 
 int getCharacterCount(char *text, char character)
