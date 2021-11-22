@@ -1,0 +1,14 @@
+
+Test string "No one said; it would. be easy! AaEe IiOoUu?":
+Characters : 44
+Words : 9
+Sentences : 4
+Syllables : 20
+Readability : 0.0 out of 100
+
+William Lyon Phelps, The Pleasure of Books:
+Characters : 402
+Words : 72
+Sentences : 6
+Syllables : 123
+Readability : 0.0 out of 100
