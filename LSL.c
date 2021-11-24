@@ -12,7 +12,7 @@ typedef struct
 	int words;
 	int sentences;
 	int syllables;
-	int readability;
+	double readability;
 }
 properties;
 
@@ -64,7 +64,7 @@ void printTextProperties(properties textProperties)
 	printf("Words : %d\n", textProperties.words);
 	printf("Sentences : %d\n", textProperties.sentences);
 	printf("Syllables : %d\n", textProperties.syllables);
-	printf("Readability : %.1d out of 100\n", textProperties.readability);
+	printf("Readability : %.1f out of 100\n", textProperties.readability);
 }
 
 int getCharacterCount(char *text, char character)
